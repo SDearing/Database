@@ -7,3 +7,4 @@ department. Finally, each department has a department ID, a name, and a
 head of the department
 ## ERD
 ![ERD](https://github.com/SDearing/Entity-Relationship-Diagrams-Example/blob/master/ERD.PNG)
+The tool I used to create this ERD was found on www.Draw.io
