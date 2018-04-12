@@ -8,5 +8,21 @@ Below is the entity relationship diagram that I am using for my database, which 
 
 The tool I used to create this diagram was www.Draw.io, a website that allows you to create diagrams.
 In the diagram the 'Enemy' table has a many-to-one relationship with the 'Enemy Skills' table, as a enemy can have multiple enemy skills but a enemy skill can only belong to one enemy. The 'Hero' table has the same relationship with the 'Hero Skills' table for the same reason. Finally both the 'Enemy Skills' and 'Hero Skills' have a many-to-one relationship with the 'Skills' table, as the skill table will provide the skills to be used by the heroskills and enemyskills.
+## Data Dictionaries
+Data dictionaries are a documentation of the tables of the database, conataining the fields of each table, the data type of the data being held by the field and extra information on the field such as how many characters will be in a string field. Every table will contain a primary key which is the unique indicator for each individual record, this is so specific records can be found with ease especially with tables containing a large amount of records. Some tables may also have a foreign key which is the primary key from the table it is linked to, this is also so certain records can be found with more ease.
+Below is the data dictionary for my database, to make the data dictionary I used the tool software Excel.
+![DD](https://github.com/SDearing/Entity-Relationship-Diagrams-Example/blob/master/DatabaseDictionary.PNG)
+
+## User Stories
+When planning the requirements of the database, user stories can be used. User stories are simple objectives that need to be completed to fully suit the users needs and can also be used as milestones in the development process.
+* I would like to see how much hp each hero has
+* I would like to see how much hp the enemy has
+* I would like to see the name of the enemy
+* I would like to see how much damage/healing a skill is dealing
+* I would like to see the type of a skill
+* I would like to see the name of a hero
+* I would like to see the race of a hero
+* I would like to see the status of a hero
+* Each Record should have a unique ID
 ## SQL Code Examples
 
