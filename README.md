@@ -24,5 +24,5 @@ When planning the requirements of the database, user stories can be used. User s
 * I would like to see the race of a hero
 * I would like to see the status of a hero
 * Each Record should have a unique ID
-## SQL Code Examples
-
+## SQL Code
+## CREATE 
