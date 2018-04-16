@@ -38,4 +38,6 @@ The insert function is used to input a record into the database, for this exampl
 
 In this example I first declare that I am inserting into the enemy table, then on the next line I declare the values of each field as they appear in the table.
 ### Update
-The update function is used to change the fields of a record, in this example, 
+The update function is used to change the fields of a record, in this example, I will be updating the name of the current record I just inserted.
+
+![update]
