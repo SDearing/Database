@@ -33,3 +33,9 @@ The create function is used to construct the tables that will be used by the dat
 The first line of code is used to establish the name of the table, then below the different fields of the table are described. For example on the third line the 'Name' field is first established, then the max amount of characters is specified and that the data inputted in this field will be a string by writing "VARCHAR(50)", finally the field is set to never be blank by writing "NOT NULL"
 ### INSERT
 The insert function is used to input a record into the database, for this example I will be inputting a record in the 'Enemy' table.
+
+![insert](https://github.com/SDearing/Entity-Relationship-Diagrams-Example/blob/master/INSERT.PNG)
+
+In this example I first declare that I am inserting into the enemy table, then on the next line I declare the values of each field as they appear in the table.
+### Update
+The update function is used to change the fields of a record, in this example, 
