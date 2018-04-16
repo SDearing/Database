@@ -27,6 +27,7 @@ When planning the requirements of the database, user stories can be used. User s
 ## SQL Code
 ## CREATE 
 The create function is used to construct the tables that will be used by the database, for this example I will be using the CREATE command to create the 'Enemy' table of the database.
+
 ![create](https://github.com/SDearing/Entity-Relationship-Diagrams-Example/blob/master/CREATE.PNG)
 
 The first line of code is used to establish the name of the table, then below the different fields of the table are described. For example on the third line the 'Name' field is first established, then the max amount of characters is specified and that the data inputted in this field will be a string by writing "VARCHAR(50)", finally the field is set to never be blank by writing "NOT NULL"
