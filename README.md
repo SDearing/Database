@@ -26,3 +26,4 @@ When planning the requirements of the database, user stories can be used. User s
 * Each Record should have a unique ID
 ## SQL Code
 ## CREATE 
+The create function is used to construct the tables that will be used by the database, for this example I will be using the CREATE command to create the 'Enemy' table of the database.
