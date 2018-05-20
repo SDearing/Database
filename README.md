@@ -37,9 +37,11 @@ The insert function is used to input a record into the database, for this exampl
 ![insert](https://github.com/SDearing/Entity-Relationship-Diagrams-Example/blob/master/INSERT.PNG)
 
 In this example I first declare that I am inserting into the enemy table, then on the next line I declare the values of each field as they appear in the table.
-### Update
+### UPDATE
 The update function is used to change the fields of a record, in this example, I will be updating the name of the current record I just inserted, to change the name 'Dragon' to 'Lizard'.
 
 ![update](https://github.com/SDearing/Database/blob/master/UPDATE%20SQL.PNG)
 
 In the code I first declare which table is being updated, then what I want the new updated value to be and what field it should be upated in and finally under what condition should be met to change the value of the field. In this example I have declared that I am updating the ENEMIES table and changing the NAME field to 'LIZARD' whenever it finds the name 'DRAGON'.
+### DELETE
+The delete function is used to remove certain records from a database. In this example I will be removing a record from the 'ENEMIES' table.
