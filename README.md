@@ -41,3 +41,5 @@ In this example I first declare that I am inserting into the enemy table, then o
 The update function is used to change the fields of a record, in this example, I will be updating the name of the current record I just inserted, to change the name 'Dragon' to 'Lizard'.
 
 ![update](https://github.com/SDearing/Database/blob/master/UPDATE%20SQL.PNG)
+
+In the code I first declare which table is being updated, then what I want the new updated value to be and what field it should be upated in and finally under what condition should be met to change the value of the field. In this example I have declared that I am updating the ENEMIES table and changing the NAME field to 'LIZARD' whenever it finds the name 'DRAGON'.
