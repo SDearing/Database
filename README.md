@@ -40,4 +40,4 @@ In this example I first declare that I am inserting into the enemy table, then o
 ### Update
 The update function is used to change the fields of a record, in this example, I will be updating the name of the current record I just inserted, to change the name 'Dragon' to 'Lizard'.
 
-![update]
+![update](https://github.com/SDearing/Database/blob/master/UPDATE%20SQL.PNG)
