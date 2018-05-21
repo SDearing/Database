@@ -77,4 +77,9 @@ The select command is used to find the value of fields in a database, this comma
 
 ![SELECT](https://github.com/SDearing/Database/blob/master/SELECT.PNG)
 
-In the code I first declare what columns I am selecting from (NAME) and then the table I am selecting from.
+In the code I first declare what columns I am selecting from (NAME) and then the table I am selecting from, giving the result 
+
+## The User Manual
+Technical and user documentation
+### 1.0 General Information
+#### 1.1 System Overview
