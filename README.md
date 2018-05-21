@@ -24,6 +24,13 @@ When planning the requirements of the database, user stories can be used. User s
 * I would like to see the race of a hero
 * I would like to see the status of a hero
 * Each Record should have a unique ID
+## Forms and Reports for Database
+In a database a form is a more user friendly way of inputting data into a table than by using a query. A report is a clearer way of presenting data from a table. Below is a collection of all forms and reports from my database.
+### ENEMIES Form
+![EnemiesForm](https://github.com/SDearing/Database/blob/master/Enemies%20Form.PNG)
+### ENEMIES Report
+![EnemiesReport](https://github.com/SDearing/Database/blob/master/Enemies%20report.PNG)
+### HEROES Form
 ## SQL Code
 ### CREATE 
 The create function is used to construct the tables that will be used by the database, for this example I will be using the CREATE command to create the 'Enemy' table of the database.
