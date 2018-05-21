@@ -83,3 +83,17 @@ In the code I first declare what columns I am selecting from (NAME) and then the
 Technical and user documentation
 ### 1.0 General Information
 #### 1.1 System Overview
+This database is designed to hold information about the heroes, enemies and their skills in an RPG game. The data assigned for heroes will be their level, name, race and status. The data for enemies will be their name, health points and damage. The data for skills will be the name, damage or heal, the type of damage and range.
+#### 1.2 Tools used
+The following list is the tools that I used during the development process of the database.
+* Draw.io to make the Entity Relationship Diagram
+* Microsoft Excel 2016 was used to make the data dictionary
+* Microsoft Access 2016 was used to make the database
+* Microsoft Word 2016 was used to make the technical and user documentation
+#### 1.3 The Role of Database Systems
+#### 1.3.1 Back-end System
+A back-end system is a database that can be accessed by multiple users by using an external application rather by using the software that the database is being used to host the database or by using SQL code.
+#### 1.3.2 E-commerce
+E-commerce databases are used to store information about an online store. This information stored will usually be their products, stock and customer transactions. A e-commerce database focuses on two main categories: site content and transactional data. Site content refers to the information we see while browsing a website, so the list of products and information on specific products. Transactional data refers to the actions of the user on the website, which would include customer orders and inventory updates.
+#### 1.3.3 Data Mining 
+Data mining is the process of finding patterns in large sets of data, this is so large amounts of data can be managed with more ease. Data mining is also useful for finding useful peices of data out of a set of raw data and assures that a database only includes useful data.
