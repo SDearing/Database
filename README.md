@@ -44,4 +44,15 @@ The update function is used to change the fields of a record, in this example, I
 
 In the code I first declare which table is being updated, then what I want the new updated value to be and what field it should be upated in and finally under what condition should be met to change the value of the field. In this example I have declared that I am updating the ENEMIES table and changing the NAME field to 'LIZARD' whenever it finds the name 'DRAGON'.
 ### DELETE
-The delete function is used to remove certain records from a database. In this example I will be removing a record from the 'ENEMIES' table.
+The delete function is used to remove certain records from a database. In this example I will be removing a record from the 'ENEMIES' table with the name 'Mistake'.
+
+![delete](https://github.com/SDearing/Database/blob/master/DELETESQL.PNG)
+
+In the code I first declare what table I am deleting from, then I set the condition of when a record should be deleted.
+
+### SELECT
+The select command is used to find the value of fields in a database, this command is especially useful when working with large databases. For this example I will be selecting all hero names in the table.
+
+![SELECT](https://github.com/SDearing/Database/blob/master/SELECT.PNG)
+
+In the code I first declare what columns I am selecting from (NAME) and then the table I am selecting from.
