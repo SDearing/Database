@@ -27,10 +27,25 @@ When planning the requirements of the database, user stories can be used. User s
 ## Forms and Reports for Database
 In a database a form is a more user friendly way of inputting data into a table than by using a query. A report is a clearer way of presenting data from a table. Below is a collection of all forms and reports from my database.
 ### ENEMIES Form
-![EnemiesForm](https://github.com/SDearing/Database/blob/master/Enemies%20Form.PNG)
+![EnemiesForm](https://github.com/SDearing/Database/blob/master/EnemiesForm.PNG)
 ### ENEMIES Report
 ![EnemiesReport](https://github.com/SDearing/Database/blob/master/Enemies%20report.PNG)
 ### HEROES Form
+![HeroesForm](https://github.com/SDearing/Database/blob/master/HeroesForm.PNG)
+### HEROES Report
+![HeroesReport](https://github.com/SDearing/Database/blob/master/HeroesReport.PNG)
+### ENEMIES_SKILLS Form
+![EnemySkillForm](https://github.com/SDearing/Database/blob/master/EnemySkill%20Form.PNG)
+### ENEMIES_SKILLS Report
+![EnemySkillReport](https://github.com/SDearing/Database/blob/master/EnemySkillReport.PNG)
+### HEROES_SKILLS Form
+![HeroSkillForm](https://github.com/SDearing/Database/blob/master/HeroSkillForm.PNG)
+### HEROES_SKILLS Report
+![HeroSkillReport](https://github.com/SDearing/Database/blob/master/HeroSkill%20Report.PNG)
+### SKILLS Form
+![SkillForm](https://github.com/SDearing/Database/blob/master/SkillForm.PNG)
+### SKILLS Report
+![SkillReport](https://github.com/SDearing/Database/blob/master/SkillReport.PNG)
 ## SQL Code
 ### CREATE 
 The create function is used to construct the tables that will be used by the database, for this example I will be using the CREATE command to create the 'Enemy' table of the database.
