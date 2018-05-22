@@ -97,3 +97,10 @@ A back-end system is a database that can be accessed by multiple users by using 
 E-commerce databases are used to store information about an online store. This information stored will usually be their products, stock and customer transactions. A e-commerce database focuses on two main categories: site content and transactional data. Site content refers to the information we see while browsing a website, so the list of products and information on specific products. Transactional data refers to the actions of the user on the website, which would include customer orders and inventory updates.
 #### 1.3.3 Data Mining 
 Data mining is the process of finding patterns in large sets of data, this is so large amounts of data can be managed with more ease. Data mining is also useful for finding useful peices of data out of a set of raw data and assures that a database only includes useful data.
+### 2.0 System Summary
+#### 2.1 What is an Object Oriented Database
+Object oriented databases are used to store objects rather than normal data such as integers. Objects are used in object oriented programming and consist of attributs and methods. Attributes are data that defines the characteristics of an object and methods refers to the behaviour of the object; also known as the functions of the object. Therefore an object oriented database is designed to hold the executable code of the object's methods and the data of their attributes. Another system an object database supports, is the use of classes and inheritance. Classes define the attributes and methods an object will contain, acting as a template for an object. Inheritance is the method of creating a object from a class.
+#### 2.2 What is the System for?
+This system is used to hold the attributes of the player characters and enemies, aswell as the attributes of the skills they will be using. 
+### 3.0 Risks and Constraints
+#### 3.1 Risks
