@@ -48,6 +48,7 @@ In a database a form is a more user friendly way of inputting data into a table 
 ![SkillReport](https://github.com/SDearing/Database/blob/master/SkillReport.PNG)
 ## Validation in my Database
 Validation means that all the data in a database is sensible and reasonable, meaning that all the data in the tables are in the correct fields and are the correct data type. To ensure validation in my database I have made sure that each field is expecting a specific data type and will show a error message if a user tries to enter data in a field that doesn't match its data type; as shown below:
+
 ![ValidationError](https://github.com/SDearing/Database/blob/master/Validation%20error.PNG)
 
 ## SQL Code
