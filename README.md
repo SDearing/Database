@@ -102,5 +102,27 @@ Data mining is the process of finding patterns in large sets of data, this is so
 Object oriented databases are used to store objects rather than normal data such as integers. Objects are used in object oriented programming and consist of attributs and methods. Attributes are data that defines the characteristics of an object and methods refers to the behaviour of the object; also known as the functions of the object. Therefore an object oriented database is designed to hold the executable code of the object's methods and the data of their attributes. Another system an object database supports, is the use of classes and inheritance. Classes define the attributes and methods an object will contain, acting as a template for an object. Inheritance is the method of creating a object from a class.
 #### 2.2 What is the System for?
 This system is used to hold the attributes of the player characters and enemies, aswell as the attributes of the skills they will be using. 
-### 3.0 Risks and Constraints
+### 3.0 Risks and Contingencies
 #### 3.1 Risks
+During development there will be risks that will disrupt the development process of the database, possible risks are:
+* Forms having incorrect data being inputted into them, i.e a string being enntered into a field when it is expecting an integer.
+* Relationships between tables not being correctly implemented.
+* Tables not being normalised fully. Normalisation is the process of restructuring a database to ensure that there are no data redundancies and ensure the integrity of the data within the tables.
+* Errors in SQL code which would create errors in the database
+#### 3.2 Contingencies
+To avoid the risks previously mentioned certain contingencies need to be put in place:
+* Assign a data type to each field: to assure that the wrong data is not put into a field, every field will be assigned a data type to be checked for, when a user is inputting a new record.
+* Create a clear design of the ERD: to assure that the relationship between each table is correct, the ERD will be first designed on paper so that all the relationships can be planned out and checked to see if they are the correct type of relationships.
+* Design of database will be put through layers of normalisation: Before the database is implemented in microsoft access, the design of the tables will be put through the layers of normalisation to make sure every peice of data is not redundant.
+* Multiple versions of the database will be saved: incase an error in the development process disrupts the database, previous versions of the database will be saved, so that if there is an issue a previous working version can be implemented and the development process can continue.
+### 4.0 Design Decisions
+#### 4.1 Key Factors Influencing Design
+A key functionality I focused on during the design was the implementation of player/hero and enemy skills in the game. To do this I created a skill table that holds the main bulk of data about each skill in the game. Then to assign those skills to the players and the enemies, I created new two tables which contained the skills that each enemy and player have access to in the game and created many-to-one relationships with the skill table; as a player/enemy can have many skills but a skill can only belong to one player/enemy.
+#### 4.2 Database Management System Decision
+The DBMS that I decided to use to create the database was Microsoft Access 2016. I am using this software because Access provides the tools to create my database in a effective and effecient way. Some of the tools provided are the integration of SQL queries to create and manipulate tables, a simple format to create forms and reports from the database and the ability to change data in a table with relative ease. Another point worth mentioning is Access' simple UI which allows me to navigate around the DBMS and find and use the tools effectively.
+#### 4.3 Security and Privacy Design Decision
+The database that I created is private, meaning that only someone with access to the database file can edit and view it. This means that there is minimal risk of someone breaching the database, but ensure the database is secure I will make sure that only I have access to any copies of database.
+#### 4.4 Performance and Maintenance Design Decision
+The database only required a limited amount of user requirements, this meant that the scope of the database was not that large. This means that the database will run at a high performance anyway, so no decisions needed to be made performance-wise. Maintenance on the database will be conducted weekly as new records are added and new user requirements are given.
+## Test Plan
+To ensure that the user and system requirements of the database are met, I will be conducting tests on the system to make sure all aspects of the database are working correctly. To illustrate these tests I have created a test plan with the outcomes of each test included in the table.
