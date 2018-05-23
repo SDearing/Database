@@ -126,3 +126,5 @@ The database that I created is private, meaning that only someone with access to
 The database only required a limited amount of user requirements, this meant that the scope of the database was not that large. This means that the database will run at a high performance anyway, so no decisions needed to be made performance-wise. Maintenance on the database will be conducted weekly as new records are added and new user requirements are given.
 ## Test Plan
 To ensure that the user and system requirements of the database are met, I will be conducting tests on the system to make sure all aspects of the database are working correctly. To illustrate these tests I have created a test plan with the outcomes of each test included in the table.
+
+![TestPlan](https://github.com/SDearing/Database/blob/master/Test%20Plan.PNG)
